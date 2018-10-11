@@ -19,3 +19,25 @@
   font-family: 'Mountains of Christmas', cursive;
   color: red;
 }*/
+.footer {
+  height: 100px;
+  align-items: center;
+}
+.well-footer {
+  width: 33%;
+  background-color: white;
+  color: #006622; /*shade of green*/
+  margin-top: 35px;
+}
+.fab {
+  color: red;
+}
+.hidden-xs {
+  color: red;
+}
+.copyright {
+  font-family: 'La Belle Aurore', cursive;
+  color: red;
+  padding: 5px;
+  height: 30px;
+}

@@ -23,7 +23,19 @@
   font-family: 'Mountains of Christmas', cursive;
   color: black;
 }*/
-
-.fine-print {
+.footer {
+  height: 100px;
+  align-items: center;
+}
+.fab {
   color: black;
+}
+.hidden-xs {
+  color: black;
+}
+.copyright {
+  font-family: 'La Belle Aurore', cursive;
+  color: black;
+  padding: 5px;
+  height: 30px;
 }
