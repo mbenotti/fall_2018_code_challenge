@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore');
+
+.container-fluid-home {
+  background-image: url(../img/hero-christmas.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.logo {
+  height: 150px;
+  margin-left: 75px;
+}
+.nav-tabs>li>a {
+  color: red;
+  font-weight: bold;
+  border: solid forestgreen 1px;
+  margin-top: 50px;
+}
+.nav-tabs>li.active>a {
+  color: forestgreen;
+  border: solid forestgreen 1px;
+  background-color: white;
+  margin-top: 50px;
+}
+.jumbotron {
+  background-color: transparent;
+  height: 150px;
+  margin-bottom: 50px;
+  font-family: 'Mountains of Christmas', cursive;
+  color: red;
+}
+.well {
+  width: 60%;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #006622; /*shade of green*/
+  color: white;
+}
+.footer {
+  height: 100px;
+}
+.fine-print {
+  font-family: 'La Belle Aurore', cursive;
+  color: forestgreen;
+}
+/*font-family: 'Mountains of Christmas', cursive;*/
+/*font-family: 'Open Sans', sans-serif;*/

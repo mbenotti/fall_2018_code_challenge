@@ -1,0 +1,21 @@
+.container-fluid-outdoor {
+  background-image: url(../img/ball-blur-bright.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.nav-tabs>li>a {
+  color: red;
+}
+.nav-tabs>li.active>a {
+  color: white;
+  background-color: forestgreen;
+}
+
+/*.jumbotron {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  font-family: 'Mountains of Christmas', cursive;
+  color: red;
+}*/

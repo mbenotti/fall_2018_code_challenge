@@ -1,0 +1,18 @@
+.container-fluid-treats {
+  background-image: url(../img/gumdrops.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+/*.jumbotron {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  font-family: 'Mountains of Christmas', cursive;
+  color: red;
+}*/
+
+.fine-print {
+  color: red;
+}

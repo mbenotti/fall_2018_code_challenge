@@ -1,0 +1,29 @@
+.container-fluid-indoor{
+  background-image: url(../img/christmas-word.jpg); /*Photo by Ylanite Koppens from Pexels*/
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.nav-tabs>li>a {
+  color: black;
+  font-weight: bold;
+  border: solid black 1px;
+  margin-top: 50px;
+}
+.nav-tabs>li.active>a {
+  color: black;
+  border: solid black 1px;
+  background-color: #ffe866; /*lighter shade of gold*/
+  margin-top: 50px;
+}
+/*.jumbotron {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  font-family: 'Mountains of Christmas', cursive;
+  color: black;
+}*/
+
+.fine-print {
+  color: black;
+}
