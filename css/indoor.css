@@ -1,7 +1,8 @@
-.container-fluid-indoor{
+.container-fluid-indoor {
   background-image: url(../img/christmas-word.jpg); /*Photo by Ylanite Koppens from Pexels*/
   background-size: cover;
   background-position: center;
+  height:700px;
   overflow: hidden;
 }
 .nav-tabs>li>a {
@@ -16,14 +17,32 @@
   background-color: #ffe866; /*lighter shade of gold*/
   margin-top: 50px;
 }
-/*.jumbotron {
-  background-size: cover;
-  background-position: center;
-  height: 200px;
+.jumbotron {
+  background-color: transparent;
+  height: 150px;
+  margin-bottom: 175px;
   font-family: 'Mountains of Christmas', cursive;
+  color: white;
+}
+.container-fluid-footer {
+  /*background-image: url(../img/hero-christmas.jpg);
+  background-size: cover;
+  background-position: center;*/
+  overflow: hidden;
+}
+.footer {
+  height: 100px;
+  align-items: center;
+}
+.fab {
   color: black;
-}*/
-
-.fine-print {
+}
+.hidden-xs {
   color: black;
+}
+.copyright {
+  font-family: 'La Belle Aurore', cursive;
+  color: black;
+  padding: 5px;
+  height: 30px;
 }

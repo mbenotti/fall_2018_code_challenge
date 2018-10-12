@@ -2,17 +2,38 @@
   background-image: url(../img/gumdrops.jpg);
   background-size: cover;
   background-position: center;
-  overflow: hidden;
 }
-
-/*.jumbotron {
-  background-size: cover;
-  background-position: center;
-  height: 400px;
+.jumbotron {
+  background-color: transparent;
+  height: 150px;
+  margin-bottom: 175px;
   font-family: 'Mountains of Christmas', cursive;
   color: red;
-}*/
-
-.fine-print {
+}
+.container-fluid-footer {
+  background-image: url(..img/gumdrops.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: space-evenly;
+}
+.footer {
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.well-footer {
+  width: 33%;
+  background-color: white;
+  color: red;
+  margin-top: 35px;
+}
+.fab {
+  color:red;
+}
+.hidden-xs {
+  color: red;
+}
+.copyright {
+  font-family: 'La Belle Aurore', cursive;
   color: red;
 }

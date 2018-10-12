@@ -2,7 +2,8 @@
   background-image: url(../img/ball-blur-bright.jpg);
   background-size: cover;
   background-position: center;
-  overflow: hidden;
+  position: static;
+  z-index: 10;
 }
 .nav-tabs>li>a {
   color: red;
@@ -11,11 +12,36 @@
   color: white;
   background-color: forestgreen;
 }
-
-/*.jumbotron {
+.container {
+  height: 75px;
+  background-color: white;
+  border: solid #006622 2px;
+  width: 75%;
+}
+.container-fluid-footer {
+  background-image: url(..img/ball-blur-bright.jpg);
   background-size: cover;
   background-position: center;
-  height: 400px;
-  font-family: 'Mountains of Christmas', cursive;
+  justify-content: space-evenly;
+}
+.footer {
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+.well-footer {
+  width: 33%;
+  background-color: white;
+  color: #006622; /*shade of green*/
+  margin-top: 35px;
+}
+.fab {
   color: red;
-}*/
+}
+.hidden-xs {
+  color: red;
+}
+.copyright {
+  font-family: 'La Belle Aurore', cursive;
+  color: red;
+}
