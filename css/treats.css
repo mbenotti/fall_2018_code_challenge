@@ -2,12 +2,24 @@
   background-image: url(../img/gumdrops.jpg);
   background-size: cover;
   background-position: center;
-  overflow: hidden;
 }
-
+.jumbotron {
+  background-color: transparent;
+  height: 150px;
+  margin-bottom: 175px;
+  font-family: 'Mountains of Christmas', cursive;
+  color: red;
+}
+.container-fluid-footer {
+  background-image: url(..img/gumdrops.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: space-evenly;
+}
 .footer {
   height: 100px;
-  align-items: center;
+  margin-top: 20px;
+  margin-left: 100px;
 }
 .well-footer {
   width: 33%;
@@ -24,6 +36,4 @@
 .copyright {
   font-family: 'La Belle Aurore', cursive;
   color: red;
-  padding: 5px;
-  height: 30px;
 }
